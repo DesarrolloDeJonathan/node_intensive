@@ -41,4 +41,9 @@ Paso a paso de los comandos:
   eslint-config-airbnb-base-typescript
 - bun add -D eslint-plugin-import @types/bcrypt @types/node @types/jsonwebtoken
 - bun add -D eslint-plug @types/cores ESTAS NO EXISTEN
--
+- bun add -D @types/cors
+- bun add -D unused-imports
+
+curl -X POST http://localhost:4000/auth/register -H "Content-Type: application/json" -d "{ "email": "test@test.com", "password": "12341234" }"
+
+2:03 testando aplicacion usando curl
