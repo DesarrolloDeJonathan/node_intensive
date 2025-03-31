@@ -44,6 +44,5 @@ Paso a paso de los comandos:
 - bun add -D @types/cors
 - bun add -D unused-imports
 
-curl -X POST http://localhost:4000/auth/register -H "Content-Type: application/json" -d "{ "email": "test@test.com", "password": "12341234" }"
-
-2:03 testando aplicacion usando curl
+Test application using curl how the mens
+- curl -X POST http://localhost:4000/auth/register -H "Content-Type: application/json" -d "{ "email": "test@test.com", "password": "12341234" }"
